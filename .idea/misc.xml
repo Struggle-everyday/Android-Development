@@ -29,7 +29,6 @@
         <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/layout-v14/about_us.xml" value="0.17592592592592593" />
         <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/layout/about_us.xml" value="0.42023346303501946" />
         <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/layout/activity_main2.xml" value="0.136" />
         <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/layout/add.xml" value="0.2" />
         <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/layout/choose.xml" value="0.2" />
         <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/layout/cloud.xml" value="0.2" />
@@ -50,10 +49,12 @@
         <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/layout/update.xml" value="0.16452702702702704" />
         <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.175" />
         <entry key="..\:/APP/Android/workplace/Yantu/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.175" />
+        <entry key="..\:/Users/86186/Desktop/Yantu/Yantu/app/src/main/res/layout/activity_main2.xml" value="0.16452702702702704" />
+        <entry key="..\:/Users/86186/Desktop/Yantu/Yantu/app/src/main/res/layout/add.xml" value="0.16452702702702704" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
