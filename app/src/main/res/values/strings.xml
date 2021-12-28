@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PiliPili</string>
+    <string name="save_picture">保存图片</string>
+
+    <string name="shared_preferences_file_name">sp_login</string>
+    <string name="login_account_name">login_account_name</string>
+    <string name="login_password">login_password</string>
+    <string name="login_remember_passoword">login_remember_password</string>
+
+    <string name="imgContent">分享新鲜事儿...</string>
+    <string name="banquan">赵艺博 张家齐 高贞 版权所有</string>
+
+
+</resources>
