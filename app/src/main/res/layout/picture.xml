@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+        <!--头像-->
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_head"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/yonghutouxiang"
+            app:riv_oval="true" />
+
+        <!--昵称-->
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_head"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/iv_head"
+            android:text="用户名"
+            android:textColor="#7f7f7f"
+            android:textSize="20dp" />
+
+        <!--内容-->
+        <TextView
+            android:id="@+id/tv_content"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_head"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="8dp"
+            android:text="动态内容"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp" />
+
+        <!--图片-->
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_image"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_below="@id/tv_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/test"
+            app:riv_corner_radius="5dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/iv_image"
+            android:layout_alignLeft="@id/iv_image"
+            android:layout_alignRight="@id/iv_image"
+            android:layout_marginTop="3dp"
+            android:background="@color/background" />
+
+        <!--分享图标-->
+        <ImageView
+            android:id="@+id/iv_share"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/iv_image"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/share" />
+
+        <!--收藏图标-->
+        <ImageView
+            android:id="@+id/iv_love"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/iv_image"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:src="@drawable/like_1" />
+
+        <!--收藏数-->
+        <TextView
+            android:id="@+id/tv_likeNumber"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@id/iv_love"
+            android:text="000"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

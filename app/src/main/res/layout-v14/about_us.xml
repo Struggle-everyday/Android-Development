@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#feeef8"
+    android:orientation="vertical"
+    tools:context=".Help">
+
+
+    <RelativeLayout
+        android:id="@+id/re_myinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="1dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+
+        <LinearLayout
+            android:id="@+id/ll_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/icon_show"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:src="@drawable/logo" />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/case1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:text="==言图YanTu=="
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:text="2021.12"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/case3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/translucent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:clickable="true"
+            android:text="五星鼓励"
+            android:textColor="#353535"
+
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/right" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:background="@drawable/translucent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:clickable="true"
+            android:text="隐私保护和指引"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/right" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case5"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/translucent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+
+            android:clickable="true"
+            android:text="功能介绍"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/right" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case6"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/translucent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+
+            android:clickable="true"
+            android:text="帮助"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/right" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case7"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/translucent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+
+            android:clickable="true"
+            android:text="版本更新"
+            android:textColor="#353535"
+            android:textSize="16sp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case8"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:text="服务协议|隐私政策"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case9"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:text="@string/banquan"
+            android:textColor="#cbced5"
+            android:textSize="10sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/background" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case10"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:text="Copyright © 2021-2022 Yantu.All Rights Reserved"
+            android:textColor="#cbced5"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

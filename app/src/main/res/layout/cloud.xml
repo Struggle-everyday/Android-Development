@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/like"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/translucent_1"
+        android:clickable="true"
+        android:paddingLeft="12dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="60dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/like1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/like" />
+
+        <TextView
+            android:id="@+id/iv_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/like1"
+            android:clickable="true"
+            android:text="我喜欢的图片"
+            android:textColor="#f3b7d0"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/right" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/translucent_2"
+
+        android:clickable="true"
+        android:paddingLeft="12dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="218dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/send1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/send" />
+
+        <TextView
+            android:id="@+id/iv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/send1"
+            android:clickable="true"
+            android:text="我发布的图片"
+            android:textColor="#bbaae1"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/right" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/translucent_3"
+        android:clickable="true"
+        android:paddingLeft="12dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="375dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/share1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/share" />
+
+        <TextView
+            android:id="@+id/iv_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+
+            android:layout_toRightOf="@id/share1"
+            android:clickable="true"
+            android:text="我转发的图片"
+            android:textColor="#96b3e5"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/right" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

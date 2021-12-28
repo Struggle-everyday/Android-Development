@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8ecf1"
+    tools:context=".MainActivity2" >
+
+    <TextView
+        android:id="@+id/dong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="130dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="你好呀~~~~"
+        android:textColor="#D793E3"
+        android:background="@drawable/translucent"
+
+        android:textSize="28sp" />
+    <TextView
+        android:id="@+id/iv_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+
+        android:text="(´｡✪ω✪｡｀)
+
+"
+        android:textColor="@color/wenzi"
+        android:background="@drawable/translucent"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/don"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/like1"
+
+        android:clickable="true"
+        android:gravity="center"
+        android:text="欢迎来到言图"
+        android:background="@drawable/translucent"
+        android:textColor="#D793E3"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/dom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_toRightOf="@id/like1"
+        android:clickable="true"
+        android:text="～(￣▽￣～)(～￣▽￣)～
+"
+        android:background="@drawable/translucent"
+
+        android:textColor="@color/wenzi"
+        android:textSize="25sp" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gv_error"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dong1"
+
+        tools:ignore="MissingClass" >
+
+    </pl.droidsonroids.gif.GifImageView>
+
+
+</LinearLayout>

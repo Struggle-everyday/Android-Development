@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".Help">
+
+
+    <RelativeLayout
+        android:id="@+id/re_myinfo"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="1dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+
+        <LinearLayout
+            android:id="@+id/ll_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nickname_"
+                android:layout_width="100dp"
+                android:layout_height="112dp"
+                android:text="解决问题"
+                android:textColor="@color/wenzi"
+                android:background="@drawable/translucent"
+
+                android:textSize="30dp" />
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/translucent"
+                android:src="@drawable/fengmian" />
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/translucent"
+                android:src="@drawable/logo" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_alignParentBottom="true"
+        android:background="#dadada" />
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/case1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/translucent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:text="为什么不能保存图片？"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/right" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/translucent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+
+            android:clickable="true"
+            android:text="为什么发不了动态？"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/right" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/translucent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:text="发布图片失败了是什么原因？"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/right" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/translucent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+
+            android:clickable="true"
+            android:text="为什么无法进行转发？"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/right" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/case5"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/translucent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+
+            android:clickable="true"
+            android:text="发表的图片丢失了是什么原因？"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/right" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/case6"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:background="@drawable/translucent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+
+            android:clickable="true"
+            android:text="如何更改密码？"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/right" />
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
